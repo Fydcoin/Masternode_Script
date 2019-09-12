@@ -1,5 +1,7 @@
 # FYDCoin Masternode Setup Guide
 
+## Step 1
+
 Enter in your server command prompt:
 ```sh
 wget -q https://raw.githubusercontent.com/Fydcoin/Masternode_Script/master/mninstall.sh
@@ -13,17 +15,21 @@ sudo chmod +x mninstall.sh
 ./mninstall.sh
 ```
 
+## Step 2
+
 When prompted to Enter your FYDCoin Masternode GEN Key.
 
 Paster your Masternode GEN Key and press enter
 
-Wait till Node is fully Synced with blockchain. For check enter below command.
+# Verify node status
+
+Wait until your masternode is fully Synced with blockchain. You can check this with the command below
 
 ```sh
 fyd-cli getinfo
 ```
 
-When Node Fully Synced enter below command for check masternode status.
+When your masternode is fully synced enter the command below to verify your masternode status.
 
 ```sh
 fyd-cli masternode status
