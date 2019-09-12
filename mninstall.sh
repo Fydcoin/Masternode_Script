@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.fyd'
 COIN_DAEMON='fydd'
 COIN_CLI='fyd-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/Fydcoin/FYDCoin/releases/download/v1.1.0/Fydd_Ubuntu16.04.zip'
+COIN_TGZ='https://www.dropbox.com/s/yv31xcmnz1ke8xn/FYD_Ubuntu.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='fydd'
 COIN_EXPLORER='http://explorer.fydcoin.com'
@@ -17,7 +17,7 @@ NODEIP=$(curl -s4 icanhazip.com)
 
 BLUE="\033[0;34m"
 YELLOW="\033[0;33m"
-CYAN="\033[0;36m" 
+CYAN="\033[0;36m"
 PURPLE="\033[0;35m"
 RED='\033[0;31m'
 GREEN="\033[0;32m"
