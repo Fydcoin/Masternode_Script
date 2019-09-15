@@ -19,7 +19,7 @@ sudo chmod +x mninstall.sh
 
 When prompted to Enter your FYDCoin Masternode GEN Key.
 
-Paster your Masternode GEN Key and press enter
+Paste your Masternode GEN Key and press enter
 
 # Verify node status
 
