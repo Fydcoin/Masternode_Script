@@ -4,7 +4,7 @@
 
 Enter in your server command prompt:
 ```sh
-wget -q https://github.com/Fydcoin/FYDCoin/releases/download/v1.2.1/mninstall.sh
+wget -q https://github.com/Fydcoin/FYDCoin/releases/download/V2.0.0/mninstall.sh
 ```
 
 ```sh
